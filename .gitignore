@@ -1,9 +1,11 @@
 # macOS internals
 .DS_Store
 
-# NPM-related
+# *packages-related
 /node_modules
 /npm-debug.log*
+yarn.lock
+package-lock.json
 
 # Python-related
 __pycache__
@@ -18,3 +20,5 @@ venv
 
 # IDEs
 .vscode
+.history
+*.code-workspace
