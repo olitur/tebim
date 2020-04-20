@@ -1,0 +1,179 @@
+# Project information
+site_name: TEBIM
+site_url: https://canopee.org/tebim/
+# https://olitur.github.io/tebim/ --> https://canopee.org/tebim/ avec le compte github olitur/o.turlier@gmail.com
+# need https for canopee.org !
+site_author: Olivier TURLIER
+site_description: >-
+  Notions sur le BIM : principes, cas concrets d'utilisation, Notions et références complémentaires
+
+# Repository
+repo_name: olitur/tebim
+repo_url: https://github.com/olitur/tebim
+edit_uri: ""
+# branch to deploy with 'mkdocs gh-deploy -c -b master -m MkDocs {version}'
+remote_branch: master
+# src directory
+docs_dir: ./src/
+# build directory
+site_dir: ./docs/
+
+# Copyright
+copyright:
+  Copyright &copy; 2000 - 2020 <a href="https://github.com/olitur">Olivier TURLIER</a> <strong>CC-BY-NC-SA 4.0</strong>
+  <span class="md-footer-custom-text">Travaillant pour le </span>
+  <a href="https://www.arfp.asso.fr/"><strong>CRM de Mulhouse</strong></a>
+
+#Copyright &copy; 2016 - 2020 Martin Donath
+
+# Configuration
+theme:
+  name: null
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: fr
+  features:
+    - tabs
+    #- instant
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: logo
+  favicon: assets/favicon.png
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - fr
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: date
+      locale: fr
+  #
+  #- mk2pdf-export:
+      #enabled_if_env: ENABLE_PDF_EXPORT
+      #combined: true
+      #combined_output_path: ./pdf/TEBIM.pdf
+#      
+  - pdf-export:
+      verbose: true
+      media_type: default
+      #enabled_if_env: ENABLE_PDF_EXPORT
+      combined: true
+      combined_output_path: ./pdf/TEBIM.pdf
+#
+  #- mkpdfs:
+  #      company: CRM Mulhouse
+  #      author: Formateurs TEB
+  #      toc-title: Sommaire
+  #      output_path: ./pdf/TEBIM.pdf
+  #      design:
+#
+
+
+
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/olitur
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/antropyk
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/olitur/
+    - icon: fontawesome/brands/paypal
+      link: https://paypal.me/antropyk?locale.x=fr_FR
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: oturlier
+      repo: formateur
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+
+# Google Analytics
+google_analytics:
+  - UA-159951047-1
+  - auto
+
+
+
+
+# Navigation
+nav:
+  - Accueil: index.md 
+  - Mise en route:
+    - Principes du BIM: howtos/index-howtos.md
+    - Avantages: howtos/avantages-bim.md
+    - Inconvénients: howtos/inconvenients-bim.md
+    - Flux de production: howtos/flux-production-bim.md 
+  - Usages:
+    - Applications concrètes: guides/index-guides.md
+    - BIM isolé (niveaux 0 & 1): 
+      - Maquette simple: guides/maquette-simple-bim0+1.md
+      - Maison individuelle avec REVIT: guides/maquette-mi-revit-bim1.md
+      - Maison individuelle avec ARCHICAD: guides/maquette-mi-archicad-bim1.md
+      - Maison individuelle avec RHINO+VISUALARQ: guides/maquette-mi-rhino+visualarq-bim1.md
+    - BIM collaboratif (niveau 2):
+      - Maquette(s) élaborée(s): guides/maquette-elaboree-bim2.md
+    - BIM intégré (niveau 3):
+      - Maquette unique: guides/maquette-unique-bim3.md
+  - Notions & Références:
+    - Notions BIM: 
+       - Concepts BIM: notions/index-notions.md
+       - Niveaux BIM: notions/notions_niveaux-bim.md
+       - Implications au Futur: notions/implications-au-futur-bim.md
+    - Références: 
+      - Références BIM: references/index-references.md
+      - Norme COBIE: references/norme-cobie-bim.md
+      - Norme BIM: references/norme-bim-bim.md
+

@@ -1,0 +1,142 @@
+# Project information
+site_name: TEBIM
+site_url: https://oturlier.github.io/formateur/
+site_author: Olivier TURLIER
+site_description: >-
+  Notions sur le BIM : principes, cas concrets d'utilisation, Notions et références complémentaires
+
+# Repository
+repo_name: oturlier/formateur
+repo_url: https://github.com/oturlier/formateur
+edit_uri: ""
+# branch to deploy with 'mkdocs gh-deploy -c -b master -m MkDocs {version}'
+remote_branch: master
+# src directory
+docs_dir: ./src/
+# build directory
+site_dir: ./docs/
+
+# Copyright
+copyright: >-
+Copyright &copy; 2000 - 2020 <a href="https://github.com/oturlier">Olivier TURLIER</a> <strong>CC-BY-NC-SA 4.0</strong>
+<span class="md-footer-custom-text">Travaillant pour le </span>
+<a href="https://www.arfp.asso.fr/"><strong>CRM de Mulhouse</strong></a>
+
+#Copyright &copy; 2016 - 2020 Martin Donath
+
+# Configuration
+theme:
+  name: null
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: fr
+  features:
+    - tabs
+    #- instant
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: logo
+  favicon: assets/favicon.png
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - fr
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      type: date
+      locale: fr
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/oturlier
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/antropyk
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/olitur/
+    - icon: fontawesome/brands/paypal
+      link: https://paypal.me/antropyk?locale.x=fr_FR
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: oturlier
+      repo: formateur
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Navigation
+nav:
+  - Accueil: index.md 
+  - Mise en route:
+    - Ckoi le BIM: howtos/ckoi-lebim.md
+    - Avantages: howtos/avantages-bim.md
+    - Inconvénients: howtos/inconvenients-bim.md
+    - Flux de production: howtos/flux-production-bim.md 
+  - Usages:
+    - Maquette simple: guides/maquette-simple-bim.md
+    - Maison individuelle avec REVIT: guides/maquette-mi-revit-bim.md
+    - Maison individuelle avec ARCHICAD: guides/maquette-mi-archicad-bim.md
+    - Maison individuelle avec RHINO+VISUALARQ: guides/maquette-mi-rhino+visualarq-bim.md
+    - Maquette élaborée: guides/maquette-elaboree.md
+  - Pour aller plus loin:
+    - Concepts BIM: notions/concepts-bim.md
+    - Implications au Présent: notions/implications-au-present-bim.md
+    - Implications au Futur: notions/implications-au-futur-bim.md
+    - Références:
+      - Norme COBIE: references/norme-cobie-bim.md
+      - Norme BIM: references/norme-bim-bim.md
+
+# Google Analytics
+google_analytics:
+  - UA-159951047-1
+  - auto
