@@ -2,7 +2,6 @@
 site_name: TEBIM
 site_url: https://canopee.org/tebim/
 # https://olitur.github.io/tebim/ --> https://canopee.org/tebim/ avec le compte github olitur/o.turlier@gmail.com
-# need https for canopee.org !
 site_author: Olivier TURLIER
 site_description: >-
   Notions sur le BIM : principes, cas concrets d'utilisation, Notions et références complémentaires
@@ -28,8 +27,8 @@ copyright:
 
 # Configuration
 theme:
-  name: null
-  custom_dir: material
+  name: material
+  custom_dir: src/
 
   # 404 page
   static_templates:
@@ -45,13 +44,14 @@ theme:
     - tabs
     #- instant
   palette:
-    primary: indigo
-    accent: indigo
+    primary: white
+    accent: deep orange
   font:
     text: Roboto
     code: Roboto Mono
   icon:
     logo: logo
+    #assets/images/CRM_logo2.svg
   favicon: assets/favicon.png
 
 # Plugins
@@ -71,12 +71,12 @@ plugins:
       #combined: true
       #combined_output_path: ./pdf/TEBIM.pdf
 #      
-  - pdf-export:
-      verbose: true
-      media_type: default
-      #enabled_if_env: ENABLE_PDF_EXPORT
-      combined: true
-      combined_output_path: ./pdf/TEBIM.pdf
+##  - pdf-export:
+##      verbose: true
+##      media_type: default
+##      #enabled_if_env: ENABLE_PDF_EXPORT
+##      combined: true
+##      combined_output_path: ./pdf/TEBIM.pdf
 #
   #- mkpdfs:
   #      company: CRM Mulhouse
@@ -100,6 +100,10 @@ extra:
       link: https://linkedin.com/in/olitur/
     - icon: fontawesome/brands/paypal
       link: https://paypal.me/antropyk?locale.x=fr_FR
+
+#extra_css:
+#  - assets/extra.css
+#PDF#    - assets/pdf.css      
 
 # Extensions
 markdown_extensions:
@@ -142,7 +146,7 @@ markdown_extensions:
 
 # Google Analytics
 google_analytics:
-  - UA-159951047-1
+  - UA-164126896-1
   - auto
 
 
@@ -176,4 +180,3 @@ nav:
       - Références BIM: references/index-references.md
       - Norme COBIE: references/norme-cobie-bim.md
       - Norme BIM: references/norme-bim-bim.md
-

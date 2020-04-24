@@ -1,16 +1,4 @@
 
-## Features
-
-* **It's just Markdown** — write your technical documentation in plain Markdown
-  – no need to know HTML, JavaScript, or CSS. 
-
-* **Static, yet searchable** — almost magically, your technical documentation 
-  website will be searchable without any further ado. Material for MkDocs comes
-  with built-in search – no server needed – that will instantly answer your
-  users' queries.
-
-
-
 ## License
 
 **MIT License**

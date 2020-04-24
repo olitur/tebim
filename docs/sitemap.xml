@@ -1,93 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://canopee.org/tebim/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://canopee.org/tebim/howtos/index-howtos/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://canopee.org/tebim/howtos/avantages-bim/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://canopee.org/tebim/howtos/inconvenients-bim/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://canopee.org/tebim/howtos/flux-production-bim/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://canopee.org/tebim/guides/index-guides/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://canopee.org/tebim/guides/maquette-simple-bim0+1/</loc>
-     <lastmod>2020-04-20</lastmod>
+    </url><url>
+     <loc>https://canopee.org/tebim/guides/maquette-simple-bim0%2B1/</loc>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://canopee.org/tebim/guides/maquette-mi-revit-bim1/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://canopee.org/tebim/guides/maquette-mi-archicad-bim1/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://canopee.org/tebim/guides/maquette-mi-rhino+visualarq-bim1/</loc>
-     <lastmod>2020-04-20</lastmod>
+    </url><url>
+     <loc>https://canopee.org/tebim/guides/maquette-mi-rhino%2Bvisualarq-bim1/</loc>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://canopee.org/tebim/guides/maquette-elaboree-bim2/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://canopee.org/tebim/guides/maquette-unique-bim3/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://canopee.org/tebim/notions/index-notions/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://canopee.org/tebim/notions/notions_niveaux-bim/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://canopee.org/tebim/notions/implications-au-futur-bim/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://canopee.org/tebim/references/index-references/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://canopee.org/tebim/references/norme-cobie-bim/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
-    </url>
-    <url>
+    </url><url>
      <loc>https://canopee.org/tebim/references/norme-bim-bim/</loc>
-     <lastmod>2020-04-20</lastmod>
+     <lastmod>2020-04-24</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
