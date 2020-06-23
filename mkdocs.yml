@@ -70,7 +70,7 @@ plugins:
       #enabled_if_env: ENABLE_PDF_EXPORT
       #combined: true
       #combined_output_path: ./pdf/TEBIM.pdf
-#      
+#
 ##  - pdf-export:
 ##      verbose: true
 ##      media_type: default
@@ -79,11 +79,11 @@ plugins:
 ##      combined_output_path: ./pdf/TEBIM.pdf
 #
   #- mkpdfs:
-  #      company: CRM Mulhouse
-  #      author: Formateurs TEB
-  #      toc-title: Sommaire
-  #      output_path: ./pdf/TEBIM.pdf
-  #      design:
+      #company: CRM Mulhouse
+      #author: Formateurs TEB
+      #toc-title: Sommaire
+      #output_path: ./pdf/TEBIM.pdf
+      #design: ./assets/pdf.css
 #
 
 
@@ -103,7 +103,7 @@ extra:
 
 #extra_css:
 #  - assets/extra.css
-#PDF#    - assets/pdf.css      
+#PDF#    - assets/pdf.css
 
 # Extensions
 markdown_extensions:
@@ -154,29 +154,31 @@ google_analytics:
 
 # Navigation
 nav:
-  - Accueil: index.md 
-  - Mise en route:
-    - Principes du BIM: howtos/index-howtos.md
-    - Avantages: howtos/avantages-bim.md
-    - Inconvénients: howtos/inconvenients-bim.md
-    - Flux de production: howtos/flux-production-bim.md 
-  - Usages:
-    - Applications concrètes: guides/index-guides.md
-    - BIM isolé (niveaux 0 & 1): 
-      - Maquette simple: guides/maquette-simple-bim0+1.md
-      - Maison individuelle avec REVIT: guides/maquette-mi-revit-bim1.md
-      - Maison individuelle avec ARCHICAD: guides/maquette-mi-archicad-bim1.md
-      - Maison individuelle avec RHINO+VISUALARQ: guides/maquette-mi-rhino+visualarq-bim1.md
+  - Accueil: index.md
+  - Tutoriels:
+    - Principes du BIM: tutoriels/index-tutoriels.md
+    - Avantages: tutoriels/avantages-bim.md
+    - Inconvénients: tutoriels/inconvenients-bim.md
+    - Flux de production: tutoriels/flux-production-bim.md
+  - Manuels:
+    - Usages BIM concrets: manuels/index-manuels.md
+    - BIM isolé (niveaux 0 & 1):
+      - Maquette BIM simple: manuels/maquette-simple-bim0+1.md
+      #- Maison individuelle avec REVIT: guides/maquette-mi-revit-bim1.md
+      #- Maison individuelle avec ARCHICAD: guides/maquette-mi-archicad-bim1.md
+      #- Maison individuelle avec RHINO+VISUALARQ: guides/maquette-mi-rhino+visualarq-bim1.md
     - BIM collaboratif (niveau 2):
-      - Maquette(s) élaborée(s): guides/maquette-elaboree-bim2.md
-    - BIM intégré (niveau 3):
-      - Maquette unique: guides/maquette-unique-bim3.md
-  - Notions & Références:
-    - Notions BIM: 
-       - Concepts BIM: notions/index-notions.md
-       - Niveaux BIM: notions/notions_niveaux-bim.md
-       - Implications au Futur: notions/implications-au-futur-bim.md
-    - Références: 
-      - Références BIM: references/index-references.md
-      - Norme COBIE: references/norme-cobie-bim.md
-      - Norme BIM: references/norme-bim-bim.md
+      - Maquette BIM élaborée: manuels/maquette-elaboree-bim2.md
+    #- BIM intégré (niveau 3):
+      #- Maquette unique: guides/maquette-unique-bim3.md
+  - Compléments:
+    - Concepts BIM:
+       - Concepts BIM: complements/notions/index-notions.md
+       - Définition BIM: complements/notions/definition-BIM.md
+       - Convention BIM: complements/notions/convention-BIM.md
+       - Niveaux BIM: complements/notions/notions_niveaux-bim.md
+       - Implications au Futur: complements/notions/implications-au-futur-bim.md
+    - Références BIM:
+      - Références BIM: complements/references/index-references.md
+      #- Norme COBIE: complements/references/norme-cobie-bim.md
+      - Normes BIM: complements/references/norme-bim-bim.md

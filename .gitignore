@@ -23,3 +23,5 @@ venv
 .history
 .history/
 *.code-workspace
+.idea
+tebim.iml

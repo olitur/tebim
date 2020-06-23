@@ -1,0 +1,16 @@
+input-files:
+  - index.md
+  - tutoriels/index-tutoriels.md
+  - tutoriels/avantages-bim.md
+  - tutoriels/inconvenients-bim.md
+  - tutoriels/flux-production-bim.md
+  - manuels/index-manuels.md
+  - manuels/maquette-simple-bim0+1.md
+  - manuels/maquette-elaboree-bim2.md
+  - complements/notions/index-notions.md
+  - complements/notions/definition-BIM.md
+  - complements/notions/convention-BIM.md
+  - complements/notions/notions_niveaux-bim.md
+  - complements/notions/implications-au-futur-bim.md
+  - complements/references/index-references.md
+  - complements/references/norme-bim-bim.md
